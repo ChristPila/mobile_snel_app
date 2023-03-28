@@ -13,7 +13,7 @@ class PlaintePage extends StatefulWidget {
 class _PlaintePageState extends State<PlaintePage> {
   List<MessageModel> messages=[
     MessageModel(
-        text: 'Pour toute vos preocupation ',
+        text: 'Cher abonné, pour tout vos préocupation prière de nous faire parvenir en nous envoyant un message ',
         date:  DateTime.now().subtract(Duration(minutes:1)),
         isSentByMe: false),
   ];
